@@ -1,2 +1,2 @@
 # frontend
-My first repository of frontend using commands from git
+My first repository of frontend using HTML, CSS and JS
