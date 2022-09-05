@@ -14,6 +14,14 @@ Estilos da página index.html
     justify-content: center;
 }
 
+.container .center p{
+    justify-content: justify;
+}
+
+.titulo{
+    text-align: center;
+}
+
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
@@ -24,10 +32,35 @@ Estilos da página index.html
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    flex-wrap: wrap;
 }
 
+.autor{
+    text-align: start;
+    color: black;
+}
 
+.autor:hover{
+    color: rgb(55, 8, 129);
+}
 
+.autor a{
+    color: black;
+}
+
+.autor a:hover{
+    color: black;
+}
+
+.icons{
+    padding: 300xp;
+}
+
+.icons .social{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
 
 /* 
 Estilos da página contato.html
