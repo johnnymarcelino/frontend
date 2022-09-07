@@ -21,15 +21,18 @@
     <form>
         <label for="nome">Nome:</label> <br>
         <input type="text" name="_blank" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
         <br>
         <label for="email">Email:</label> <br>
-        <input type="text" name="_blank" id="email">
+        <input type="text" name="_blank" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
         <br>
         <label for="assunto">Assunto:</label> <br>
         <!-- <textarea name="Assunto" id="assunto" cols="20" rows="0"></textarea> -->
-        <input type="text" name="_blank" id="email">
+        <input type="text" name="_blank" id="email" onkeyup="validaAssunto()">
+        <div id="txtAssunto"></div>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
         <br>
         <h2>Endereço:</h2>
         <p>Avenida Pauliasta, 341</p>
@@ -76,7 +79,10 @@
         style="border:0;" 
         allowfullscreen="" 
         loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
+        referrerpolicy="no-referrer-when-downgrade"
+        id="mapa"
+        onmousemove="mapaZoom()"
+        onmouseout="mapaNormal()">
     </iframe>
 
     <script src="assets/js/script.js"></script>
