@@ -1,2 +1,2 @@
 # frontend
-My first repository of frontend using commands from git
+My repository of frontend for activity development - Generation Brasil
